@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preTreinoActivity">
+
+    <Button
+        android:id="@+id/buttonSC"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@color/Salmao"
+        android:fontFamily="@font/raleway"
+        android:text="SC"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonS"
+        app:layout_constraintEnd_toStartOf="@+id/buttonX"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMainDicionario" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/raleway"
+        android:text="Selecione quais suas principais dúvidas na hora de formar palavras da lingua portuguesa? "
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMainDicionario"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@color/Salmao"
+        android:fontFamily="@font/raleway"
+        android:text="SS"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSC"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@color/Salmao"
+        android:fontFamily="@font/raleway"
+        android:text="Ç"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonX"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnMainDicionario"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/buttonX"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@color/Salmao"
+        android:fontFamily="@font/raleway"
+        android:text="X OU SS"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonSC"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/buttonS"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@color/Salmao"
+        android:fontFamily="@font/raleway"
+        android:text="Uso de Sinais agudos"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonC"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSC" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@color/Salmao"
+        android:fontFamily="@font/raleway"
+        android:text="Uso de Sinais Circunflexos"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonS"
+        app:layout_constraintTop_toBottomOf="@+id/buttonX" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

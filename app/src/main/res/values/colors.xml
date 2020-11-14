@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA592A</color>
+    <color name="colorPrimaryDark">#AC2600</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Salmao">#FE805C</color>
+    <color name="azulEsculo">#145679</color>
+    <color name="azulClaro">#97C4DC</color>
+    <color name="SalmaoClaro">#ECC1B3</color>
+</resources>
